@@ -1,0 +1,71 @@
+Media player
+
+-froentend-React
+-backend-jsonserver
+
+
+-Add youtube videos
+-View added youtube videos
+-Delete added youtube videos
+-Add categories
+-View added categories
+-Delete  added categories
+-Add videos to category
+-View watch history
+
+
+REACT BOOTSTRAP
+==========================================
+
+npm i react-bootstrap bootstrap
+
+import './bootstrap.min.css'; 
+//in app.jsx,normal bootstrap css package currrenty we are not using this we are using a theme it has custom styles
+
+bootswatch.com -to get bootstrap themes
+               -click download
+               -bootstrap.min.css
+               -downloads->cut->project->src-paste
+ 
+import './bootstrap.min.css' ----> import in app.jsx           
+
+
+
+landing page-
+home page 
+history page 
+
+
+src-folder(PAGES)    
+                  ->history.jsx  
+                  ->landing.jsx
+                  ->home.jsx  
+src-folder(components)
+                      ->header
+                      ->footer
+
+
+and import all page in app.jsx
+
+
+
+npm i react-router-dom----->for routing  install this package
+
+main.jsx-wrap app in browserrouter
+in app .jsx ----> impoort {Routs,route} from 'react-router-dom'
+
+
+reactbootstrap-->components---->navbar---->copy code---->copy import statements---->paste in header.jsx
+
+
+fontawsome--->icon---> style it in curly braces  like this style={{color: "#bc1547"}}
+
+
+
+embedded code 
+watch url 
+
+
+post videos 
+
+
